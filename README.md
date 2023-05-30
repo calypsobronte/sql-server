@@ -14,7 +14,7 @@ ssh2
 
 ### Descarga del proyecto
 ```bash
-$ git clone 
+$ git clone https://github.com/calypsobronte/sql-server.git
 ```
 luego 
 
