@@ -12,6 +12,7 @@ async function connectToSqlServer() {
       database: process.env.FTP_HOST,
       options: {
         encrypt: true, // Habilita el cifrado si estás utilizando una conexión segura (SSL/TLS)
+        trustServerCertificate: true
       },
     };
 
