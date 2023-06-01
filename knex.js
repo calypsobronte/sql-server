@@ -8,7 +8,7 @@ const knex = require('knex')({
     password: process.env.DB_PASSWORD_LOCAL,
     database: process.env.DB_DATABASE_LOCAL,
     options: {
-      instanceName: process.env.DB_INSTANCE, // este si es requerido (optional)
+      instanceName: process.env.DB_INSTANCE_LOCAL, // este si es requerido (optional)
       encrypt: true, // Set to true if using SSL/TLS
       trustServerCertificate: true // Set to true if using a self-signed certificate
     },
